@@ -24,7 +24,7 @@ chmod +x *.sh
 # Linux Solo - skein
 ./cpuminer -a skein -o http://127.0.0.1:14023/ --userpass=user:pass --no-getwork --no-stratum --coinbase-addr=dgbt1q2fz5ckzq7dqvfpz6m2y4k98nw698kdykv8e0ha -D
 
-# Linux Solo - Qubit
+# Linux Solo - qubit
 ./cpuminer -a qubit -o http://127.0.0.1:14023/ --userpass=user:pass --no-getwork --no-stratum --coinbase-addr=dgbt1q2fz5ckzq7dqvfpz6m2y4k98nw698kdykv8e0ha -D
 
 # Linux Solo - odo
