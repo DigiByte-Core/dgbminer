@@ -7,9 +7,25 @@ sudo apt-get install build-essential automake libssl-dev libcurl4-openssl-dev li
 
 git clone https://github.com/Jongjan88/dgbminer/
 
+cd dgbminer
+
 chmod +x *.sh
 
 ./build.sh
 
-# Linux Solo
+#------------------------------------------------------------------
 
+# Linux Solo - sha256d
+./cpuminer -a scrypt -o http://127.0.0.1:14023/ --userpass=user:pass --no-getwork --no-stratum --coinbase-addr=dgbt1q2fz5ckzq7dqvfpz6m2y4k98nw698kdykv8e0ha -D
+
+# Linux Solo - scrypt
+./cpuminer -a scrypt -o http://127.0.0.1:14023/ --userpass=user:pass --no-getwork --no-stratum --coinbase-addr=dgbt1q2fz5ckzq7dqvfpz6m2y4k98nw698kdykv8e0ha -D
+
+# Linux Solo - skein
+./cpuminer -a skein -o http://127.0.0.1:14023/ --userpass=user:pass --no-getwork --no-stratum --coinbase-addr=dgbt1q2fz5ckzq7dqvfpz6m2y4k98nw698kdykv8e0ha -D
+
+# Linux Solo - Qubit
+./cpuminer -a qubit -o http://127.0.0.1:14023/ --userpass=user:pass --no-getwork --no-stratum --coinbase-addr=dgbt1q2fz5ckzq7dqvfpz6m2y4k98nw698kdykv8e0ha -D
+
+# Linux Solo - odo
+./cpuminer -a odo -o http://127.0.0.1:14023/ --userpass=user:pass --no-getwork --no-stratum --coinbase-addr=dgbt1q2fz5ckzq7dqvfpz6m2y4k98nw698kdykv8e0ha -D
