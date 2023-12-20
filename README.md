@@ -17,6 +17,7 @@ chmod +x *.sh
 
 #------------------------------------------------------------------
 
+# Run node && cpuminer on same server.
 # Linux Solo - sha256d
 ./cpuminer -a sha256d -o http://127.0.0.1:14023/ --userpass=user:pass --no-getwork --no-stratum --coinbase-addr=dgbt1q2fz5ckzq7dqvfpz6m2y4k98nw698kdykv8e0ha -D
 
@@ -31,3 +32,8 @@ chmod +x *.sh
 
 # Linux Solo - odo
 ./cpuminer -a odo -o http://127.0.0.1:14023/ --userpass=user:pass --no-getwork --no-stratum --coinbase-addr=dgbt1q2fz5ckzq7dqvfpz6m2y4k98nw698kdykv8e0ha -D
+
+#------------------------------------------------------------------
+
+# Help
+./cpuminer --help
