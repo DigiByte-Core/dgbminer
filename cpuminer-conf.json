@@ -8,7 +8,7 @@
 	"user" : "XeVrkPrWB7pDbdFLfKhF1Z3xpqx6wkH3",
 	"pass" : "cpuminer",
 
-	"algo" : "x11",
+	"algo" : "odo",
 	"threads" : 0,
 	"cpu-priority" : 0,
 	"cpu-affinity" : -1,
