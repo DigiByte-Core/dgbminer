@@ -18,19 +18,19 @@ chmod +x *.sh
 ***Run node && cpuminer on the same server!***
 
 # Linux Solo - sha256d
-./cpuminer -a sha256d -o http://127.0.0.1:14022/ --userpass=user:pass --no-getwork --no-stratum --coinbase-addr=dgbt1q2fz5ckzq7dqvfpz6m2y4k98nw698kdykv8e0ha -D
+./cpuminer -a sha256d -o http://127.0.0.1:14022/ --userpass=user:pass --no-getwork --no-stratum --coinbase-addr=dgb1q66lmtmlkswlphp5j7fgvg4nar4y8uf24hvlu89 -D
 
 # Linux Solo - scrypt
-./cpuminer -a scrypt -o http://127.0.0.1:14022/ --userpass=user:pass --no-getwork --no-stratum --coinbase-addr=dgbt1q2fz5ckzq7dqvfpz6m2y4k98nw698kdykv8e0ha -D
+./cpuminer -a scrypt -o http://127.0.0.1:14022/ --userpass=user:pass --no-getwork --no-stratum --coinbase-addr=dgb1q66lmtmlkswlphp5j7fgvg4nar4y8uf24hvlu89 -D
 
 # Linux Solo - skein
-./cpuminer -a skein -o http://127.0.0.1:14022/ --userpass=user:pass --no-getwork --no-stratum --coinbase-addr=dgbt1q2fz5ckzq7dqvfpz6m2y4k98nw698kdykv8e0ha -D
+./cpuminer -a skein -o http://127.0.0.1:14022/ --userpass=user:pass --no-getwork --no-stratum --coinbase-addr=dgb1q66lmtmlkswlphp5j7fgvg4nar4y8uf24hvlu89 -D
 
 # Linux Solo - qubit
-./cpuminer -a qubit -o http://127.0.0.1:14022/ --userpass=user:pass --no-getwork --no-stratum --coinbase-addr=dgbt1q2fz5ckzq7dqvfpz6m2y4k98nw698kdykv8e0ha -D
+./cpuminer -a qubit -o http://127.0.0.1:14022/ --userpass=user:pass --no-getwork --no-stratum --coinbase-addr=dgb1q66lmtmlkswlphp5j7fgvg4nar4y8uf24hvlu89 -D
 
 # Linux Solo - odo
-./cpuminer -a odo -o http://127.0.0.1:14022/ --userpass=user:pass --no-getwork --no-stratum --coinbase-addr=dgbt1q2fz5ckzq7dqvfpz6m2y4k98nw698kdykv8e0ha -D
+./cpuminer -a odo -o http://127.0.0.1:14022/ --userpass=user:pass --no-getwork --no-stratum --coinbase-addr=dgb1q66lmtmlkswlphp5j7fgvg4nar4y8uf24hvlu89 -D
 
 
 
