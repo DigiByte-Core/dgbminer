@@ -5,7 +5,7 @@
 #
 
 # Build
-FROM ubuntu:16.04 as builder
+FROM ubuntu:23.10 as builder
 
 RUN apt-get update \
   && apt-get install -y \
