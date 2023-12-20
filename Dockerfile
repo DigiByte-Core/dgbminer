@@ -1,5 +1,5 @@
 #
-# Dockerfile for cpuminer-opt
+# Dockerfile for cpuminer
 # usage: docker build -t cpuminer-opt:latest .
 # run: docker run -it --rm cpuminer-opt:latest [ARGS]
 #
