@@ -42,7 +42,7 @@ chmod +x *.sh
 libgmp3-dev zlib1g-dev
 
 # Mainnet config ( digibyte.conf )
-
+```bash
 maxconnections=300
 listen=1
 server=1
@@ -50,9 +50,9 @@ rpcuser=user
 rpcpassword=pass
 rpcallowip=0.0.0.0
 rpcport=14022
-
+```
 # Testnet config ( digibyte.conf )
-
+```bash
 maxconnections=300
 testnet=1
 listen=1
@@ -63,3 +63,4 @@ rpcuser=user
 rpcpassword=pass
 rpcallowip=0.0.0.0
 rpcport=14022
+```
