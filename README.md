@@ -47,7 +47,7 @@ listen=1
 server=1
 rpcuser=user
 rpcpassword=pass
-rpcallowip=0.0.0.0
+rpcallowip=0.0.0.0/0
 rpcport=14022
 ```
 # Testnet config ( digibyte.conf )
@@ -60,6 +60,6 @@ server=1
 [test]
 rpcuser=user
 rpcpassword=pass
-rpcallowip=0.0.0.0
+rpcallowip=0.0.0.0/0
 rpcport=14022
 ```
