@@ -2,7 +2,6 @@
 # Dockerfile for cpuminer-opt
 # usage: docker build -t cpuminer-opt:latest .
 # run: docker run -it --rm cpuminer-opt:latest [ARGS]
-# ex: docker run -it --rm cpuminer-opt:latest -a cryptonight -o cryptonight.eu.nicehash.com:3355 -u 1MiningDW2GKzf4VQfmp4q2XoUvR6iy6PD.worker1 -p x -t 3
 #
 
 # Build
@@ -22,7 +21,7 @@ COPY . /app/
 RUN cd /app/ && ./build.sh
 
 # App
-FROM ubuntu:16.04
+FROM ubuntu:23.10
 
 RUN apt-get update \
   && apt-get install -y \
