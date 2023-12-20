@@ -15,7 +15,7 @@ chmod +x *.sh
 ```
 
 
-***Run node && cpuminer on the same server!***
+***Run node && cpuminer on the same PC!***
 
 # Linux Solo - sha256d
 ./cpuminer -a sha256d -o http://127.0.0.1:14022/ --userpass=user:pass --no-getwork --no-stratum --coinbase-addr=dgb1q66lmtmlkswlphp5j7fgvg4nar4y8uf24hvlu89 -D
