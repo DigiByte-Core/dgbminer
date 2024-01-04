@@ -45,6 +45,8 @@ libgmp3-dev zlib1g-dev
 maxconnections=300
 listen=1
 server=1
+algo=sha256d
+
 rpcuser=user
 rpcpassword=pass
 rpcallowip=0.0.0.0/0
@@ -56,6 +58,7 @@ maxconnections=300
 testnet=1
 listen=1
 server=1
+algo=sha256d
 
 [test]
 rpcuser=user
