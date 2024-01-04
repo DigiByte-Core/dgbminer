@@ -46,6 +46,10 @@ maxconnections=300
 listen=1
 server=1
 algo=sha256d
+#algo=scrypt
+#algo=skein
+#algo=qubit
+#algo=odo
 
 rpcuser=user
 rpcpassword=pass
@@ -59,6 +63,10 @@ testnet=1
 listen=1
 server=1
 algo=sha256d
+#algo=scrypt
+#algo=skein
+#algo=qubit
+#algo=odo
 
 [test]
 rpcuser=user
