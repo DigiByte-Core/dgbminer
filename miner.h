@@ -646,16 +646,15 @@ Options:\n\
                          (3) sha256d       Double SHA-256\n\
                          (4) skein         Skein+Sha\n\
                          (5) odo           odocrypt\n\
-  -N, --param-n=N       N parameter for scrypt based algos\n\
-  -R, --param-r=N       R parameter for scrypt based algos\n\
-  -K, --param-key=STRING  Key (pers) parameter for algos that use it\n\
+  -N, --param-n=N       N parameter for scrypt\n\
+  -R, --param-r=N       R parameter for scrypt\n\
   -o, --url=URL         URL of mining server\n\
   -O, --userpass=U:P    username:password pair for mining server\n\
   -u, --user=USERNAME   username for mining server\n\
   -p, --pass=PASSWORD   password for mining server\n\
       --cert=FILE       certificate for mining server using SSL\n\
   -x, --proxy=[PROTOCOL://]HOST[:PORT]  connect through a proxy\n\
-  -t, --threads=N       number of miner threads (default: number of processors)\n\
+  -t, --threads=N       number of miner threads\n\
   -r, --retries=N       number of times to retry if a network call fails\n\
                           (default: retry indefinitely)\n\
       --retry-pause=N   time to pause between retries, in seconds (default: 30)\n\
@@ -663,7 +662,6 @@ Options:\n\
   -T, --timeout=N       timeout for long poll and stratum (default: 300 seconds)\n\
   -s, --scantime=N      upper bound on time spent scanning current work when\n\
                           long polling is unavailable, in seconds (default: 5)\n\
-      --randomize       randomize scan range (deprecated)\n\
   -f, --diff-factor=N   divide req. difficulty by this factor (std is 1.0)\n\
   -m, --diff-multiplier=N Multiply difficulty by this factor (std is 1.0)\n\
       --hash-meter      display thread hash rates\n\
@@ -687,9 +685,8 @@ Options:\n\
   -B, --background      run the miner in the background\n\
       --benchmark       run in offline benchmark mode\n\
       --cpu-affinity    set process affinity to cpu core(s), mask 0x3 for cores 0 and 1\n\
-      --cpu-priority    set process priority (default: 0 idle, 2 normal to 5 highest) (deprecated)\n\
       --max-temp=N      only mine if cpu temp is less than specified value (linux)\n\
-      --max-rate=N[KMG] only mine if net hashrate is less than specified value\n\
+      --max-rate=N      only mine if net hashrate is less than specified value\n\
       --max-diff=N      only mine if net difficulty is less than specified value\n\
   -c, --config=FILE     load a JSON-format configuration file\n\
       --data-file=FILE  path and name of data file\n\
