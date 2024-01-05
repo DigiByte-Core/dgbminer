@@ -3,7 +3,7 @@ A Digibyte optimized cpu miner. Sha256d, Scrypt, Skein, Qubit and Odocrypt.
 
 # Build for Linux
 ```bash
-sudo apt-get install build-essential automake libssl-dev libcurl4-openssl-dev lib32z1-dev libjansson-dev libgmp-dev git
+sudo apt-get install build-essential binutils automake libssl-dev libcurl4-openssl-dev lib32z1-dev libjansson-dev libgmp-dev git
 
 git clone https://github.com/Jongjan88/dgbminer/
 
